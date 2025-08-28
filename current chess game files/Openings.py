@@ -60,7 +60,7 @@ class Queens_gambit(Openings):
     #[1:d4,d5 2:c4,e6 (black declines gambit) 3:Nc3,c5 (tarrasch defense)
     #[1:d4,d5 2:c4,e6 (black declines gambit catalan) 3:Nf3,Nf6 4:g3,Be7 5:Bg2,dxc4 6: 0-0
     #[1:d4,d5 2:c4,c6 (the slav defense) 3:Nc3,Nf6 4:Nf3,dxc4 5:a4,Bf5 6:e3,e6 7:Bxc4,Bb4
-    #[1:d4,d5 2:c4,c6 (the slav defense) 3:Nc3,Nf6 4:Nf3,e6 (the semi slav defense)
+    #[1:d4,d5 2:c4,c6 (the slav is a bit gay defense) 3:Nc3,Nf6 4:Nf3,e6 (the semi slav defense)
     #[1:d4,d5 2:c4,e5 (The albin counter-gambit) 3:dxe5,d4 4:Nf3,Nc6 5:g3,Ng6 6:Bg2,Nxe5 7:0-0
     def __init__(self):
         super().__init__()
