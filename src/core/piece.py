@@ -101,7 +101,7 @@ class Piece:
     def set_texture(self, size=80):
         colour_name = 'white' if self.colour == WHITE else 'black'
         self.texture = str(
-            _PROJECT_ROOT / 'assets' / 'images' / f'{size}px' / f'{colour_name}_{self.name}.png'
+            _PROJECT_ROOT / 'assets' / 'images' / f'{size}px' / f'{colour_name}_{self.name.lower()}.png'
         )
 
     def add_moves(self, move):
