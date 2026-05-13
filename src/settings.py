@@ -1,0 +1,55 @@
+# Colours (RGB)
+BLACK = (0, 0, 0)
+WHITE = (225, 225, 225)
+ORANGE = (255, 213, 128)
+RED = (202, 95, 93)
+DARK_RED = (186, 46, 44)
+GREEN = (185, 224, 165)
+DARK_GREEN = (82, 128, 87)
+LIGHT_BLUE = (119, 141, 169)
+BLUE = (85, 105, 135)
+DARK_BLUE = (0, 48, 73)
+DARK_GREY = (62, 63, 63)
+GREY = (90, 90, 90)
+LIGHT_GREY = (130, 130, 130)
+ONE_PLAYER = (73, 206, 208)
+TWO_PLAYER = (32, 95, 96)
+
+# Window
+TITLE = 'Chess Game'
+WIDTH = 512
+HEIGHT = 512
+FPS = 30
+TILESIZE = 64
+width = WIDTH + 80
+height = HEIGHT + TILESIZE
+
+# Board dimensions
+COLS = 8
+ROWS = 8
+
+# Board coordinate labels
+rows_as_characters = ['8', '7', '6', '5', '4', '3', '2', '1']
+cols_as_letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
+# Piece notation characters
+king_character = 'K'
+queen_character = 'Q'
+rook_character = 'R'
+bishop_character = 'B'
+knight_character = 'N'
+piece_characters = [
+    king_character,
+    queen_character,
+    rook_character,
+    bishop_character,
+    knight_character,
+]
+
+# Piece values
+KVALUE = 10000
+QVALUE = 900
+RVALUE = 600
+BVALUE = 300
+NVALUE = 300
+PVALUE = 100
